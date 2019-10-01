@@ -14,7 +14,7 @@ class Login extends CI_Controller
 	public function signup()
 	{
 
-		$this->load->view('templates/header', $data);
-		$this->load->view('templates/signup', $data);
+		$this->load->view('templates/header');
+		$this->load->view('templates/signup');
 	}
 }
